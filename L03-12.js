@@ -1,4 +1,4 @@
-function number(n)
+function digit(n)
 {
 	var res;
 	switch(n)
