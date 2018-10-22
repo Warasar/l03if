@@ -28,6 +28,10 @@ function WeekdayName(n) {
 
 		case 7:
 		    week = 'воскресенье';
+		    break;
+			
+		default:
+			week = '';
 	}
 	return week;
 }
