@@ -1,7 +1,7 @@
 function digit (n) {
 	switch (n) {
 		case 1 :{
-			return'Понедельник';  break;
+			return'Понедельник'; break;
 		}
 		case 2 :{
 			return'Вторник'; break;
