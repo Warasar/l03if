@@ -9,9 +9,12 @@ function h(a,b,c)
 			{
 				s=(a+b+c)/2;
 				res=(2*s)/a;
-			}else res=-1;
-		}else res=-1;
-	}else res=-1;
+			}
+			else res=-1;
+		}
+		else res=-1;
+	}
+	else res=-1;
 	return(res);
 }
 
