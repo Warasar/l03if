@@ -13,3 +13,5 @@ function h(a,b,c)
 		}else res=-1;
 	}else res=-1;
 	return(res);
+}
+
