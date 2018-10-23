@@ -1,14 +1,14 @@
 function f(a,b,c,d) {
 	var min1, min2, max;
-	if(Math.abs(a) < Math.abs(b))
-		min1 = Math.abs(a);
+	if(a < b)
+		min1 = a;
 	else
-		min1 = Math.abs(b);
+		min1 = b;
 
-	if(Math.abs(c) > Math.abs(d))
-		min2 = Math.abs(d);
+	if(c > d)
+		min2 = d;
 	else
-		min2 = Math.abs(c);
+		min2 = c;
 
 	if (min1>min2)
 		max = min1;
