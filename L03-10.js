@@ -38,6 +38,6 @@ var n;
               case 12: 
                     Name = "декабрь"; 
               break; 
+        default: return "";
             } 
-    return Name; 
 }
