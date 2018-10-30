@@ -8,6 +8,7 @@ function skal(x1,y1,x2,y2,x3,y3)
 	return sk1213;
 }
 
+
 function x4(x1,y1,x2,y2,x3,y3) 
 {
 	if (Math.abs(skal(x1,y1,x2,y2,x3,y3))<0.0001)
@@ -17,6 +18,7 @@ function x4(x1,y1,x2,y2,x3,y3)
 	if (Math.abs(skal(x3,y2,x1,y1,x2,y2))<0.0001)
 		return (x2+(x1-x3));
 }
+
 
 function Y4(x1,y1,x2,y2,x3,y3) 
 {
