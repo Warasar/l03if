@@ -13,3 +13,5 @@ function f(x,y,z) {
 	}
 	return min;
 }
+
+module.exports = f;
