@@ -7,10 +7,10 @@ function WeekdayName(n) {
 		case 4: wdn = "четверг"; break; 
 		case 5: wdn = "пятница"; break; 
 		case 6: wdn = "суббота"; break; 
-		case 7: wdn = "воскресенье";  
+		case 7: wdn = "воскресенье";
+		default: return wdn = "";
 	}
-	if (n < 8 && n > 0) return wdn;
-	else return wdn = "";
+	return wdn;
 }
 
 module.exports = WeekdayName;
